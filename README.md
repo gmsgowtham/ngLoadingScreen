@@ -12,5 +12,5 @@ Attributes
 Usage
 -
 ```
-<loading-screen is-loading="loadingView" src="/icons/heart.svg"></loading-screen>
+<loading-screen is-loading="myLoadingScope" src="/icons/heart.svg"></loading-screen>
 ```
