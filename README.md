@@ -1,6 +1,11 @@
 # ngLoadingScreen
 Angular Directive which puts a overlay loading screen if is-loading attribute is True and removes it when False.
 
+Install
+_
+* bower install ng-loading-screen
+* Add 'ngLoadingScreen' to your angular module, e.g. angular.module('myApp', ['ngLoadingScreen']);
+
 Attributes
 -
 * isLoading (Takes $scope.variable, true or false)

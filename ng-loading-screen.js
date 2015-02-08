@@ -1,11 +1,4 @@
-/* 
-* Created by Mohammed Hammoud
-* GitHub: https://github.com/iktw/
-* Repository: https://github.com/iktw/ngLoadingScreen/
-*/
-
-/* Change myApplication to your application and off you go */
-angular.module('myApplication').directive('loadingScreen', function () {
+angular.module('ngLoadingScreen', []).directive('loadingScreen', function () {
     var linker = function ($scope, element, attrs) {
         $scope.$watch('isLoading', function (newValue, oldValue) {
             var timer = $scope.timer ? $scope.timer : 500;
